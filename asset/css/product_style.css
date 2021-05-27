@@ -1,0 +1,36 @@
+.products{
+	border-radius: 10px;
+	background-color: #b14b6a;
+	text-align:center;
+	height: 80px;
+	color: white;
+	display: block;
+	padding:10px;
+	box-shadow: 0px 0px 5px #BFC9CA ;
+}
+.products:hover{
+	transform: scale(1.1);
+}
+.products_content{
+	border-radius: 10px;
+	/*border:5px solid;*/
+	float: right;
+	box-sizing: border-box;
+	height: 350px;
+}
+.box_odd{
+	border-radius: 10px;
+	/*border:5px solid;*/
+	float: left;
+	box-sizing: border-box;
+	height: 350px;	
+}
+.products_content img{
+	border-radius: 10px;
+	border: 2px solid;
+}
+.products_content img:hover{
+	
+	border: 7px solid #b14b6a;
+	transform: scale(1.1);
+}
